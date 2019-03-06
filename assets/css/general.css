@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a:hover{
+  transition: all 0.35s ease;
+}
+
+body, html {
+    background-color: #F4F5F7;
+    height: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+    color: var(--white);
+}
+p {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--white);
+}
+em {
+	font-family: 'Open Sans', sans-serif;
+    color: #99928A;
+}
+.facebook_aside {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 25%;
+  z-index: 1030;
+}
+.contenedor{
+    width: 75%;
+    position: relative;
+    margin-right: 0;
+    margin-left: auto;
+    padding-right: 3%;
+    padding-left: 3%;
+}
+.parallax { 
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax25 { 
+  /* Full height */
+  height: 25%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax50 { 
+  /* Full height */
+  height: 50%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax75 { 
+  /* Full height */
+  height: 75%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax100 { 
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#footer{
+  background-color: var(--gray-dark);
+}
+#footer p{
+  margin-bottom: 0;
+}
+@media (max-width: 815px) {
+  .facebook_aside{
+  	display: none;
+  }
+  .container{
+    width: 100%;
+    margin-right: auto;
+  }
+  .parallax, .parallax25, .parallax50, .parallax75{
+    background-attachment: initial;
+    background-size: inherit !important;
+    background-position: center !important;
+    height: auto;
+  }
+  .parallax100{
+    background-attachment: initial;
+    background-size: inherit !important;
+    background-position: center !important;
+  }
+}
