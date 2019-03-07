@@ -51,6 +51,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 
 $route['default_controller'] = 'pages';
-$route['reg'] = 'pages/registro_exitoso';
+$route['videos'] = 'pages/a/videos';
+$route['grabaciones'] = 'pages/a/grabaciones';
+$route['trabajo'] = 'pages/a/trabajo';
+$route['cursos'] = 'pages/a/cursos';
 $route['a'] = 'pages/nuevo_registro';
+
 

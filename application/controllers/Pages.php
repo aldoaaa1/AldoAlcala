@@ -19,9 +19,10 @@ class Pages extends CI_Controller
 		$this->load->view('templates/footer.php');
 	}
 
-	function registro_exitoso(){
+	function a($a){
+		$data['modules_ubication'] = 'modules/'.$a.'/';
 		$this->load->view('templates/header.php');
-		$this->load->view('pages/registro_visitante.php');
+		$this->load->view('pages/'.$a, $data);
 		$this->load->view('templates/footer.php');
 	}
 
