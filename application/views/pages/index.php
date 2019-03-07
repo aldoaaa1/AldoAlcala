@@ -13,9 +13,9 @@
 		  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 		    <div class="navbar-nav">
 		      <a class="nav-item nav-link active" href="#">Página Principal<span class="sr-only">(current)</span></a>
-		      <a class="nav-item nav-link" href="#">Sobre Mí</a>
-		      <a class="nav-item nav-link" href="#">Referencias</a>
-		      <a class="nav-item nav-link" href="#">Servicios</a>
+		      <a class="nav-item nav-link" href="#" id="sobre_mi_link">Sobre Mí</a>
+		      <a class="nav-item nav-link" href="#" id="referencias_link">Referencias</a>
+		      <a class="nav-item nav-link" href="#" id="servicios_link">Servicios</a>
 		    </div>
 		  </div>
 		</nav>
@@ -32,6 +32,5 @@
 <?php $this->load->view($modules_ubication.'sobre_mi') ?>
 <?php $this->load->view($modules_ubication.'referencias') ?>
 <?php $this->load->view($modules_ubication.'servicios') ?>
-<!-- <?php $this->load->view($modules_ubication.'videos') ?> -->
 
 <script type="text/javascript"src="<?php echo (base_url().'assets/js/index.js') ?>"></script>

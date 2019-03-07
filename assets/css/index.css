@@ -32,14 +32,6 @@
 	background-size: 80% auto;
     background-position: right;	
 }
-#videos{
-	background-image: 
-    linear-gradient( rgba(10,10,0,.5), rgba(10,10,0,.8) ),
-    url('http://192.168.0.4/assets/img/videos.jpg');
-	background-repeat: no-repeat;
-	background-size: 80% auto;
-    background-position: right;	
-}
 #servicios{
 	background-image: 
     linear-gradient( rgba(10,10,0,.6), rgba(10,10,0,.4) ),
@@ -68,11 +60,6 @@
 .vh100{
 	height: 100vh;
 }
-.centrarObjetos{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
 .bienvenida{
 	background-color: var(--gray-dark);
 }
@@ -97,25 +84,6 @@
 .preview_foto:hover{
 	background-color: #fff;
 }
-/* Estilos de los videos */
-.video1 p{
-    margin-bottom: 0;
-}
-.video1 h4 {
-    font-size: 20px;
-    margin: 0;
-}
-.video1 iframe {
-    margin-top: 4px;
-}
-.video1 span {
-    font-style: italic;
-    font-size: 14px;
-}
-.video1 p {
-    font-size: 16px;
-}
-/* ----------------------- */
 .titulo1{
 	margin-top: 0;
 	margin-bottom: 0;

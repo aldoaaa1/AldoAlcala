@@ -38,6 +38,15 @@ em {
     padding-right: 3%;
     padding-left: 3%;
 }
+.centrarObjetos{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.centrarObjetosVertical{
+  display: flex;
+  align-items: center;
+}
 .parallax { 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
