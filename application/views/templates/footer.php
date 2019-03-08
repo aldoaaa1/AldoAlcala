@@ -1,20 +1,22 @@
-<div class="container" id="footer">
+<div class="container-flex" id="footer">
 	<div style="height: 10px;"></div>
-	<div class="row">
-		<div class="col-md">
-			<p class="text-center">Mezcla y Master Profesional</p>
-			<p class="text-center">Presupuesto Sin Compromiso</p>
-			<p class="text-center">Trabajo Garantizado</p>
-		</div>
-		<div class="col-md">
-			<p class="text-center">REDES SOCIALES</p>
-			<p class="text-center">Visitar mi Facebook</p>
-			<p class="text-center">Youtube - Aldo Alcalá</p>
-		</div>
-		<div class="col-md">
-			<p class="text-center">San Nicolás de los Garza</p>
-			<p class="text-center">Nuevo León, CP 66475</p>
-			<p class="text-center">aldo.aaa1@gmail.com</p>
+	<div class="container">
+		<div class="row">
+			<div class="col-md">
+				<p class="text-center">Mezcla y Master Profesional</p>
+				<p class="text-center">Presupuesto Sin Compromiso</p>
+				<p class="text-center">Trabajo Garantizado</p>
+			</div>
+			<div class="col-md">
+				<p class="text-center">REDES SOCIALES</p>
+				<p class="text-center">Visitar mi Facebook</p>
+				<p class="text-center">Youtube - Aldo Alcalá</p>
+			</div>
+			<div class="col-md">
+				<p class="text-center">San Nicolás de los Garza</p>
+				<p class="text-center">Nuevo León, CP 66475</p>
+				<p class="text-center">aldo.aaa1@gmail.com</p>
+			</div>
 		</div>
 	</div>
 	<div style="height: 10px;"></div>

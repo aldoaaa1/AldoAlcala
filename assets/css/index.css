@@ -18,30 +18,42 @@
 
 #titulo1{
 	background-image: 
-    linear-gradient( rgba(0,0,0,.2), rgba(0,0,0,.8) ),
-    url('http://192.168.0.4/assets/img/mic1_portada.jpg');
+    linear-gradient( hsla(200, 50%, 100%, 0.9), hsla(230, 15%, 95%, 0.8) ),
+    url('http://192.168.0.4/assets/img/mic2_portada.jpg');
 	background-repeat: no-repeat;
-	background-size: 80% auto;
-    background-position: right;
+	background-size: cover;
+    background-position: center;
+}
+#titulo1 svg{
+	width: 550px;
+	fill: var(--dark);
 }
 #sobre_mi{
-	background-image: 
-    linear-gradient( rgba(10,10,0,.5), rgba(10,10,0,.8) ),
+	background-color: var(--light);
+	/*background-image: 
+    linear-gradient( hsla(200, 50%, 100%, 0.9), hsla(230, 15%, 95%, 0.8) ),
     url('http://192.168.0.4/assets/img/sobre_mi.jpg');
 	background-repeat: no-repeat;
-	background-size: 80% auto;
-    background-position: right;	
+	background-size: cover;
+    background-position: center;*/	
+}
+#sobre_mi p{
+	margin-top: 16px;
+	margin-bottom: 16px;
 }
 #servicios{
 	background-image: 
-    linear-gradient( rgba(10,10,0,.6), rgba(10,10,0,.4) ),
+    linear-gradient( hsla(200, 50%, 100%, 0.8), hsla(230, 15%, 95%, 0.7) ),
     url('http://192.168.0.4/assets/img/servicios.jpg');
 	background-repeat: no-repeat;
-	background-size: 80% auto;
-    background-position: right;	
+	background-size: cover;
+    background-position: center;	
 }
 #referencias{
-	background-color: var(--gray-dark);
+	background-color: var(--gray);
+}
+#referencias p, #referencias h2, #referencias h4{
+	color: var(--light);
 }
 .transicion{
 	transition: all 0.35s ease;
@@ -51,20 +63,20 @@
 	cursor: pointer;
 }
 .pointer:hover{
-	background-color: rgba(80, 78, 58, 0.75);
+	background-color: hsla(200, 5%, 64%, 0.5);
 	cursor: pointer;
 }
 .parpadeo{
-	background-color: rgba(80, 78, 58, 0.75);
+	background-color: hsla(200, 5%, 64%, 0.5);
 }
 .vh100{
 	height: 100vh;
 }
 .bienvenida{
-	background-color: var(--gray-dark);
+	background-color: var(--gray);
 }
 .bienvenida p, h3{
-	color: var(--white);
+	color: var(--light);
 	margin-bottom: 0;
 	padding-top: 5px;
 	padding-bottom: 8px;
@@ -102,6 +114,14 @@
 		padding-bottom: 20px;
 		padding-top: 20px;
 	}
+	#titulo1 svg{
+		width: 430px;
+	}
 }
 
+@media (max-width: 576px) {
+	#titulo1 svg{
+		width: 320px;
+	}
+}
 

@@ -12,11 +12,11 @@ body, html {
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto', sans-serif;
-    color: var(--white);
+    color: var(--dark);
 }
 p {
     font-family: 'Open Sans', sans-serif;
-    color: var(--white);
+    color: var(--dark);
 }
 em {
 	font-family: 'Open Sans', sans-serif;
@@ -95,10 +95,11 @@ em {
   background-size: cover;
 }
 #footer{
-  background-color: var(--gray-dark);
+  background-color: var(--gray);
 }
 #footer p{
   margin-bottom: 0;
+  color: var(--light);
 }
 @media (max-width: 815px) {
   .facebook_aside{

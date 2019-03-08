@@ -1,5 +1,5 @@
-<div class="container referencias parallax100 centrarObjetos" id="servicios">
-	<div>
+<div class="container-flex referencias parallax100 centrarObjetos" id="servicios">
+	<div class="container">
 		<div class="row">
 			<div class="col-sm pointer transicion vh100 centrarObjetos">
 				<div>
