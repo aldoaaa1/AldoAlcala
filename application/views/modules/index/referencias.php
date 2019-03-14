@@ -6,17 +6,17 @@
 		<div class="row">
 			<div class="col">
 				<div class="preview_foto"></div>
-				<h4 class="text-center">Flor Ortiz</h4>
+				<h4 class="text-center">Lorem Ipsum</h4>
 				<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta rem perferendis, fugit sequi quos ducimus tempore culpa reprehenderit quidem minima quaerat odio eum. Tempora, iusto!</p>
 			</div>
 			<div class="col">
 				<div class="preview_foto"></div>
-				<h4 class="text-center">Andy Rayas</h4>
+				<h4 class="text-center">Lorem Ipsum</h4>
 				<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta rem perferendis, fugit sequi quos ducimus tempore culpa reprehenderit quidem minima quaerat odio eum. Tempora, iusto!</p>
 			</div>
 			<div class="col">
 				<div class="preview_foto"></div>
-				<h4 class="text-center">Isaac Calderón</h4>
+				<h4 class="text-center">Lorem Ipsum</h4>
 				<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta rem perferendis, fugit sequi quos ducimus tempore culpa reprehenderit quidem minima quaerat odio eum. Tempora, iusto!</p>
 			</div>
 		</div>

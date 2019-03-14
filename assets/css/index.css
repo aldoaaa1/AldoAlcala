@@ -1,3 +1,27 @@
+#titulo1{
+	background-image: 
+    linear-gradient( hsla(200, 50%, 100%, 0.9), hsla(230, 15%, 95%, 0.8) ),
+    url('http://localhost/assets/img/mic2_portada.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-position: center;
+}
+#servicios{
+	background-image: 
+    linear-gradient( hsla(200, 50%, 100%, 0.9), hsla(230, 15%, 95%, 0.8) ),
+    url('http://localhost/assets/img/servicios.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-position: center;	
+}
+#sobre_mi{
+	background-image: 
+    linear-gradient( hsla(200, 20%, 20%, 0.5), hsla(230, 15%, 25%, 0.7) ),
+    url('http://localhost/assets/img/sobre_mi.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-position: center;	
+}
 .tituloPrincipal h1{
 	font-size: 60px;
 	padding-top: 25px;
@@ -13,41 +37,18 @@
 	margin-top: 0;
 	margin-bottom: 0;
 	padding-bottom: 20px;
-	font-size: 14px;
 }
-
-#titulo1{
-	background-image: 
-    linear-gradient( hsla(200, 50%, 100%, 0.9), hsla(230, 15%, 95%, 0.8) ),
-    url('http://192.168.0.4/assets/img/mic2_portada.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-    background-position: center;
+.btn_inicio_sesion{
+	right: 7px;
+    position: absolute;
 }
 #titulo1 svg{
 	width: 550px;
 	fill: var(--dark);
 }
-#sobre_mi{
-	background-color: var(--light);
-	/*background-image: 
-    linear-gradient( hsla(200, 50%, 100%, 0.9), hsla(230, 15%, 95%, 0.8) ),
-    url('http://192.168.0.4/assets/img/sobre_mi.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-    background-position: center;*/	
-}
 #sobre_mi p{
 	margin-top: 16px;
 	margin-bottom: 16px;
-}
-#servicios{
-	background-image: 
-    linear-gradient( hsla(200, 50%, 100%, 0.8), hsla(230, 15%, 95%, 0.7) ),
-    url('http://192.168.0.4/assets/img/servicios.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-    background-position: center;	
 }
 #referencias{
 	background-color: var(--gray);
@@ -58,7 +59,7 @@
 .transicion{
 	transition: all 0.35s ease;
 }
-#servicios_tutoriales{
+#cursos_link{
 	transition: all 0.35s ease;
 	cursor: pointer;
 }
@@ -117,11 +118,18 @@
 	#titulo1 svg{
 		width: 430px;
 	}
+	
 }
 
 @media (max-width: 576px) {
 	#titulo1 svg{
 		width: 320px;
+	}
+}
+
+@media (max-width: 768px){
+	.btn_inicio_sesion{
+		position: inherit;
 	}
 }
 

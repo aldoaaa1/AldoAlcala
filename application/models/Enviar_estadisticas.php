@@ -1,10 +1,8 @@
 <?php
 
-	class Enviar_estadisticas extends CI_Model
-	{
+	class Enviar_estadisticas extends CI_Model{
 		
-		function __construct()
-		{
+		function __construct(){
 			$this->load->database();
 		}
 

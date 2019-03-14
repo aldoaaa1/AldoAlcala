@@ -2,17 +2,17 @@
 	<div style="height: 10px;"></div>
 	<div class="container">
 		<div class="row">
-			<div class="col-md">
+			<div class="col-md md_hidden">
 				<p class="text-center">Mezcla y Master Profesional</p>
 				<p class="text-center">Presupuesto Sin Compromiso</p>
 				<p class="text-center">Trabajo Garantizado</p>
 			</div>
-			<div class="col-md">
+			<div class="col-sm sm_hidden">
 				<p class="text-center">REDES SOCIALES</p>
 				<p class="text-center">Visitar mi Facebook</p>
 				<p class="text-center">Youtube - Aldo Alcalá</p>
 			</div>
-			<div class="col-md">
+			<div class="col-sm">
 				<p class="text-center">San Nicolás de los Garza</p>
 				<p class="text-center">Nuevo León, CP 66475</p>
 				<p class="text-center">aldo.aaa1@gmail.com</p>

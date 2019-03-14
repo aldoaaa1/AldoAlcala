@@ -12,5 +12,3 @@
 	<link rel="stylesheet" href="<?php echo (base_url().'assets/css/general.css') ?>">
 </head>
 <body>
-<div id="fb-root"></div>
-<script async defer src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v3.2"></script>

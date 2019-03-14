@@ -1,4 +1,3 @@
-<link rel="stylesheet" href="<?php echo (base_url().'assets/css/trabajo.css') ?>">
 <nav class="navbar navbar-expand-md fixed-top navbar-light gb-light" style="background-color: hsla(200, 25%, 98%, 0.9);" id="nav1">
   <a class="navbar-brand" href="#">MENÚ</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -7,9 +6,9 @@
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
       <a class="nav-item nav-link" href=<?= base_url(); ?>>Página Principal</a>
-      <a class="nav-item nav-link" href="#" id="trabajos_menu">Trabajos que realizo</a>
-      <a class="nav-item nav-link" href="#" id="forma_trabajo_menu">Forma de Trabajo</a>
-      <a class="nav-item nav-link" href="#" id="referencias_menu">Referencias</a>
+      <a class="nav-item nav-link" href="#" id="trabajos_menu">Mis Cursos</a>
+      <a class="nav-item nav-link" href="#" id="forma_trabajo_menu">Cursos Exclusivos</a>
+      <a class="nav-item nav-link" href="#" id="referencias_menu">Ayuda</a>
       <a class="nav-item nav-link" href="#" id="contacto_menu">Contáctame</a>
     </div>
   </div>
@@ -17,15 +16,9 @@
 <div class="container-flex parallax100 centrarObjetos" id="titulo1">
 	<div class="container">
 		<div class="tituloPrincipal">
-			<h2>¡HAGAMOSLO JUNTOS!</h2>
-			<p>Si tienes algo en mente. ¡Yo puedo ayudarte!</p>
+			<h2>DASHBOARD DEL ADMINISTRADOR</h2>
+			<p><?php var_dump($_SESSION); ?></p>
 		</div>
 	</div>
 </div>
 
-<?php $this->load->view($modules_ubication.'trabajos') ?>
-<?php $this->load->view($modules_ubication.'forma') ?>
-<?php $this->load->view($modules_ubication.'referencias') ?>
-<?php $this->load->view($modules_ubication.'contacto') ?>
-
-<script type="text/javascript"src="<?php echo (base_url().'assets/js/trabajo.js') ?>"></script>

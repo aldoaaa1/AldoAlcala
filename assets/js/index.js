@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
 	setInterval(function(){
-		var element = document.getElementById("servicios_tutoriales");
+		var element = document.getElementById("cursos_link");
   		element.classList.toggle("parpadeo");
   	}, 700 );
 
@@ -27,5 +27,4 @@ $(document).ready(function(){
 	        scrollTop: $("#servicios").offset().top
 	    }, 1000);
   	});
-
 });
