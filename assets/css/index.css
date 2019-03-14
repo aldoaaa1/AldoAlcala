@@ -19,7 +19,7 @@
 #titulo1{
 	background-image: 
     linear-gradient( rgba(0,0,0,.2), rgba(0,0,0,.8) ),
-    url('http://192.168.0.4/assets/img/mic1_portada.jpg');
+    url('http://localhost/assets/img/mic1_portada.jpg');
 	background-repeat: no-repeat;
 	background-size: 80% auto;
     background-position: right;
@@ -27,7 +27,7 @@
 #sobre_mi{
 	background-image: 
     linear-gradient( rgba(10,10,0,.5), rgba(10,10,0,.8) ),
-    url('http://192.168.0.4/assets/img/sobre_mi.jpg');
+    url('http://localhost/assets/img/sobre_mi.jpg');
 	background-repeat: no-repeat;
 	background-size: 80% auto;
     background-position: right;	
@@ -35,7 +35,7 @@
 #servicios{
 	background-image: 
     linear-gradient( rgba(10,10,0,.6), rgba(10,10,0,.4) ),
-    url('http://192.168.0.4/assets/img/servicios.jpg');
+    url('http://localhost/assets/img/servicios.jpg');
 	background-repeat: no-repeat;
 	background-size: 80% auto;
     background-position: right;	
