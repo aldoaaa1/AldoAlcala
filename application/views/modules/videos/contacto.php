@@ -3,7 +3,7 @@
 		<div class="col-lg-6">
 			<div style="height: 25px;"></div>
 			<h3>¡Mándame un mensaje!</h3>
-			<p>Si tienes algo en mente y crees que puedo apoyarte, puedes contar conmigo, sólo cuéntame tu idea. ¡Nos ponemos de acuerdo!</p>
+			<p>Si tienes algo en mente y después de ver estos videos crees que puedo apoyarte, cuéntame tu idea y en cuanto lo vea te contesto. <br>¡Nos ponemos de acuerdo!</p>
 			<form action="">
 				<div class="input-group">
 					<div class="input-group-prepend">

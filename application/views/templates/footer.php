@@ -5,17 +5,14 @@
 			<div class="col-md md_hidden">
 				<p class="text-center">Mezcla y Master Profesional</p>
 				<p class="text-center">Presupuesto Sin Compromiso</p>
-				<p class="text-center">Trabajo Garantizado</p>
 			</div>
 			<div class="col-sm sm_hidden">
-				<p class="text-center">REDES SOCIALES</p>
-				<p class="text-center">Visitar mi Facebook</p>
-				<p class="text-center">Youtube - Aldo Alcalá</p>
+				<p class="text-center">Visítame en Facebook</p>
+				<p class="text-center">y en youtube: Aldo Alcalá</p>
 			</div>
 			<div class="col-sm">
 				<p class="text-center">San Nicolás de los Garza</p>
-				<p class="text-center">Nuevo León, CP 66475</p>
-				<p class="text-center">aldo.aaa1@gmail.com</p>
+				<p class="text-center">Nuevo León</p>
 			</div>
 		</div>
 	</div>
@@ -43,5 +40,6 @@
 		});
 	</script>
 	<script type="text/javascript"src="<?php echo (base_url().'assets/js/bootstrap.js') ?>"></script>
+	<script type="text/javascript"src="<?php echo (base_url().'assets/js/general.js') ?>"></script>
 </body>
 </html>

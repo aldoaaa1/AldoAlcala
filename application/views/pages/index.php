@@ -9,7 +9,7 @@
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
       <a class="nav-item nav-link" href="#" id="pagina_principal_link">Página Principal</a>
-      <a class="nav-item nav-link" href="#" id="sobre_mi_link">Sobre Mí</a>
+      <a class="nav-item nav-link" href="#" id="sobre_mi_link">Acerca de mí</a>
       <a class="nav-item nav-link" href="#" id="referencias_link">Referencias</a>
       <a class="nav-item nav-link" href="#" id="servicios_link">Servicios</a>
       <a class="nav-item nav-link" href="#">¡DESCARGAS!</a>
@@ -28,7 +28,7 @@
 			<?php $this->load->view('templates/logo_completo') ?>
 			<div style="height: 1px;"></div>
 			<div class="fb-like" data-href="https://www.facebook.com/aldomusica.mty/" data-layout="button" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
-			<p>¡Ayudame a darle like a mi página!</p>
+			<p>¡Ayúdame a darle like a mi página!</p>
 			<!-- <p> <?php var_dump($_SESSION); ?> </p> -->
 		</div>
 	</div>
@@ -37,8 +37,8 @@
 	<div class="container">
 		<div>
 			<h3 class="titulo1">¡Bienvenido a mi página!</h3>
-			<p class="text-center">
-			¡Hola! Aquí podrás encontrar algunas de las cosas que he realizado y que estoy encantado de compartir contigo. ¡Espero que te guste tanto como yo disfrute hacerlas! Y no te olvides de visitarme y de paso regalarme un like en mi página de facebook!
+			<p class="text-center" style="margin-bottom: 25px;">
+			¡Aclaremos algo! Esta página fue creada para ayudarte a solucionar tus problemas en audio. Te aseguro que tengo experiencia en el campo de la producción musical, aqui te muestro algo de lo que he realizado, recomendaciones de mis amigos y clientes; estoy seguro de que entre tu experiencia y la mía podremos hacer que todo fluya y funcione de maravilla. Porfavor, no olvides visitarme y regalarme un like en facebook. De antemano ¡Te lo agradezco!
 			</p>
 		</div>
 	</div>

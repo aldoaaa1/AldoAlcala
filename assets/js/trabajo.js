@@ -5,21 +5,21 @@ $(document).ready(function(){
     $('#trabajos_menu').click(function(){
       $('html, body').animate({
           scrollTop: $("#trabajos").offset().top - navOffset
-      }, 1000);
+      }, velocidadScroll);
     });
     $('#forma_trabajo_menu').click(function(){
       $('html, body').animate({
           scrollTop: $("#forma").offset().top - navOffset
-      }, 1000);
+      }, velocidadScroll);
     });
   	$('#referencias_menu').click(function(){
   		$('html, body').animate({
 	        scrollTop: $("#referencias").offset().top - navOffset
-	    }, 1000);
+	    }, velocidadScroll);
   	});
   	$('#contacto_menu').click(function(){
   		$('html, body').animate({
 	        scrollTop: $("#contacto").offset().top - navOffset
-	    }, 1000);
+	    }, velocidadScroll);
   	});
 });

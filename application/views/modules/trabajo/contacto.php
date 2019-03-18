@@ -2,8 +2,8 @@
 	<div class="container">
 		<div class="col-lg-6">
 			<div style="height: 25px;"></div>
-			<h3>¡Mándame un mensaje!</h3>
-			<p>Si tienes algo en mente, y alguno de los trabajos aquí descritos te gustó y crees que puedo apoyarte, cuéntame tu idea y en cuanto lo vea te contesto. ¡Nos ponemos de acuerdo!</p>
+			<h3>¡Quiero saber de ti!</h3>
+			<p>Si algo te aflige, y necesitas alguno de los trabajos aquí descritos. ¡Apóyate en mí! Deseo ayudarte con eso. ¡Pongámonos de acuerdo!</p>
 			<form action="">
 				<div class="input-group">
 					<div class="input-group-prepend">

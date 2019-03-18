@@ -6,9 +6,9 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
-      <a class="nav-item nav-link" href=<?= base_url(); ?>>Página Principal</a>
-      <a class="nav-item nav-link" href="#" id="trabajos_menu">Trabajos que realizo</a>
-      <a class="nav-item nav-link" href="#" id="forma_trabajo_menu">Forma de Trabajo</a>
+      <a class="nav-item nav-link" href=<?= base_url(); ?>>Página principal</a>
+      <a class="nav-item nav-link" href="#" id="trabajos_menu">Trabajos que ofrezco</a>
+      <a class="nav-item nav-link" href="#" id="forma_trabajo_menu">Forma de trabajo</a>
       <a class="nav-item nav-link" href="#" id="referencias_menu">Referencias</a>
       <a class="nav-item nav-link" href="#" id="contacto_menu">Contáctame</a>
     </div>
@@ -17,8 +17,8 @@
 <div class="container-flex parallax100 centrarObjetos" id="titulo1">
 	<div class="container">
 		<div class="tituloPrincipal">
-			<h2>¡HAGAMOSLO JUNTOS!</h2>
-			<p>Si tienes algo en mente. ¡Yo puedo ayudarte!</p>
+			<h2>ENTRE 2... ¡LA CARGA ES MENOR!</h2>
+			<p>¡Emprendamos la aventura! Tú dime el objetivo.</p>
 		</div>
 	</div>
 </div>
