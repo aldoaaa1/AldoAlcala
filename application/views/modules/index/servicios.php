@@ -25,14 +25,15 @@
 					</p>
 				</div>
 			</div>
-			<div class="col-md parpadeo vh100 centrarObjetos" id="cursos_link">
+			<!-- SE AGREGARÁN LOS CURSOS HASTA QUE ESTÉN LISTOS -->
+			<!-- <div class="col-md parpadeo vh100 centrarObjetos" id="cursos_link">
 				<div>
 					<h4 class="text-center">¡TUTORIALES Y CURSOS DISPONIBLES!</h4>
 					<p class="text-center">
 						Si viendo mi trabajo, te gusta lo que hago tanto como para intentar hacerlo tú mismo, entonces ¡Ésta es la sección indicada para ti! Aprende directamente de mí. ¡Click Aquí!
 					</p>
 				</div>
-			</div>
+			</div> -->
 		</div>
 	</div>
 </div>

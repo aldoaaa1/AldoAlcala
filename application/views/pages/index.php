@@ -14,11 +14,12 @@
       <a class="nav-item nav-link" href="#" id="servicios_link">Servicios</a>
       <a class="nav-item nav-link" href="#">¡DESCARGAS!</a>
     </div>
-	<div class="navbar-nav btn_inicio_sesion">
+    <!-- SE AGREGARA EL INICIO DE SESIÓN CUANDO LA APP ESTÉ LISTA -->
+	<!-- <div class="navbar-nav btn_inicio_sesion">
 		<button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#modal_inicio_sesion">
-	  INICIAR SESIÓN
-	</button>
-	</div>
+		  INICIAR SESIÓN
+		</button>
+	</div> -->
   </div>
 </nav>
 <div class="container-flex parallax100 centrarObjetos" id="titulo1">
