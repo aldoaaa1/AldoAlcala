@@ -1,10 +1,14 @@
 #videos{
-	background-image: 
-    linear-gradient( rgba(10,10,0,.5), rgba(10,10,0,.8) ),
-    url('http://192.168.0.4/assets/img/videos.jpg');
-	background-repeat: no-repeat;
-	background-size: 80% auto;
-    background-position: right;	
+	background-color: var(--gray);	
+}
+#videos a{
+	color: var(--gray-light);
+}
+#videos a:hover{
+	color: var(--light);
+}
+#videos h4, #videos p{
+	color: var(--light);
 }
 .video1 p{
     margin-bottom: 0;
@@ -22,4 +26,10 @@
 }
 .video1 p {
     font-size: 16px;
+}
+.mar_bot{
+	margin-bottom: 10px;
+}
+em{
+	color: var(--gray-light);
 }

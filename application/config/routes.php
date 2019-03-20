@@ -55,6 +55,7 @@ $route['videos'] = 'pages/a/videos';
 $route['grabaciones'] = 'pages/a/grabaciones';
 $route['trabajo'] = 'pages/a/trabajo';
 $route['cursos'] = 'pages/a/cursos';
-$route['a'] = 'pages/nuevo_registro';
+$route['acceso'] = 'sesion';
+$route['reg'] = 'pages/nuevo_registro';
 
 

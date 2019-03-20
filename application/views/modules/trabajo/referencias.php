@@ -1,10 +1,10 @@
 <div class="container-flex referencias parallax75 centrarObjetos" id="referencias">
 	<div class="container">
 		<div class="row">
-			<h2 class="titulo1 col">REFERENCIAS DE MIS AMIGOS</h2>
+			<h2 class="titulo1 col">REFERENCIAS ANTERIORES</h2>
 		</div>
 		<div class="row">
-			<div class="col-lg">
+			<div class="col">
 				<div class="ref_box">
 					<div class="centrarObjetos" style="width: 100%;">
 						<div class="centraObjetosVertical">
@@ -16,7 +16,7 @@
 					<p>&nbsp&nbsp Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta rem perferendis, fugit sequi quos ducimus tempore culpa reprehenderit quidem minima quaerat odio eum. Tempora, iusto!</p>
 				</div>
 			</div>
-			<div class="col-lg">
+			<div class="col">
 				<div class="ref_box">
 					<div class="centrarObjetos" style="width: 100%;">
 						<div class="centraObjetosVertical">
@@ -28,7 +28,7 @@
 					<p>&nbsp&nbsp Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi aliquid nulla harum, quibusdam illum! Qui dolorem fugiat officiis beatae esse itaque sit praesentium provident aspernatur!</p>
 				</div>
 			</div>
-			<div class="col-lg">
+			<div class="col">
 				<div class="ref_box">
 					<div class="centrarObjetos" style="width: 100%;">
 						<div class="centraObjetosVertical">

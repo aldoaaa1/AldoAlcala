@@ -1,0 +1,55 @@
+#referencias{
+	background-color: var(--gray);
+}
+#referencias p, #referencias h2, #referencias h4{
+	color: var(--light);
+}
+#trabajos{
+	background-color: var(--gray);
+}
+.preview_foto{
+	background-color: #e9e9e9;
+    height: 115px;
+    border-radius: 67px;
+    width: 115px;
+    margin: 0 auto 20px auto;
+    transition: all 0.5s ease;
+}
+.titulo1{
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 25px;
+	padding-bottom: 30px;
+	text-align: center;
+	width: 100%;
+}
+.ref_box{
+	position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.ref_box div{
+	float: left;
+}
+.ref_box h4{
+	margin-left: 140px;
+}
+.ref_box p{
+	display: inline-block;
+    text-align: justify;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom: 50px;
+}
+#realizados h4{ margin-bottom: 0; }
+#realizados em{ color: var(--gray); }
+.participacion h3{
+	font-size: 15px;
+    margin: 15px auto 0px auto;
+}
+.participacion p{
+	margin-bottom: 0px;
+	font-size: 20px;
+}

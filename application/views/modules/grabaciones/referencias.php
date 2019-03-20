@@ -1,7 +1,7 @@
-<div class="container-flex referencias parallax75 centrarObjetos" id="referencias">
+<div class="container-flex referencias parallax centrarObjetos" id="referencias">
 	<div class="container">
 		<div class="row">
-			<h2 class="titulo1 col">REFERENCIAS DE MIS AMIGOS</h2>
+			<h2 class="titulo1 col">REFERENCIAS ANTERIORES</h2>
 		</div>
 		<div class="row">
 			<div class="col-lg">

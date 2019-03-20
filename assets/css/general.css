@@ -3,7 +3,7 @@
     padding: 0;
 }
 a:hover{
-  transition: all 0.35s ease;
+  transition: all var(--hover-time) ease;
 }
 
 body, html {
@@ -12,31 +12,17 @@ body, html {
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto', sans-serif;
-    color: var(--white);
+    color: var(--dark);
 }
 p {
     font-family: 'Open Sans', sans-serif;
-    color: var(--white);
+    color: var(--dark);
+    font-size: 15px;
 }
 em {
-	font-family: 'Open Sans', sans-serif;
+	  font-family: 'Open Sans', sans-serif;
     color: #99928A;
-}
-.facebook_aside {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  width: 25%;
-  z-index: 1030;
-}
-.contenedor{
-    width: 75%;
-    position: relative;
-    margin-right: 0;
-    margin-left: auto;
-    padding-right: 3%;
-    padding-left: 3%;
+    font-size: 15px;
 }
 .centrarObjetos{
   display: flex;
@@ -95,19 +81,13 @@ em {
   background-size: cover;
 }
 #footer{
-  background-color: var(--gray-dark);
+  background-color: var(--gray);
 }
 #footer p{
   margin-bottom: 0;
+  color: var(--light);
 }
-@media (max-width: 815px) {
-  .facebook_aside{
-  	display: none;
-  }
-  .container{
-    width: 100%;
-    margin-right: auto;
-  }
+@media (max-width: 992px) {
   .parallax, .parallax25, .parallax50, .parallax75{
     background-attachment: initial;
     background-size: inherit !important;
@@ -118,5 +98,15 @@ em {
     background-attachment: initial;
     background-size: inherit !important;
     background-position: center !important;
+  }
+}
+@media (max-width: 768px){
+  .md_hidden{
+    display: none;
+  }
+}
+@media (max-width: 576px){
+  .sm_hidden{
+    display: none;
   }
 }
