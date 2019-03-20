@@ -36,7 +36,7 @@
 			user.paginaActual = "<?= $_SERVER['PHP_SELF'] ?>";
 
 			// REGISTRO EN BASE DE DATOS
-			$.post('<?=base_url()?>index.php/a', {user: user});
+			$.post('<?=base_url()?>index.php/reg', {user: user});
 		});
 	</script>
 	<script type="text/javascript"src="<?php echo (base_url().'assets/js/bootstrap.js') ?>"></script>

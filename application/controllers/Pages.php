@@ -28,7 +28,8 @@
 		}
 
 		function nuevo_registro(){
-			$this->Enviar_estadisticas->registrar_visita();
+			// $this->Enviar_estadisticas->registrar_visita();
+			$this->Enviar_estadisticas->registrar_frecuencia();
 		}
 
 	}

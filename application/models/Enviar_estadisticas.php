@@ -19,7 +19,36 @@
 				'vendor' => $_POST['user']['vendor'],
 				'userAgent' => $_POST['user']['userAgent']
 			);
-			return $this->db->insert('visitas', $data);
+			$this->db->insert('visitas', $data);
+		}
+
+		function registrar_frecuencia(){
+			// Creo el identificador de la visita
+			$identificador = $_POST['user']['ip'].'(res:'.$_POST['user']['screenWidth'].'x'.$_POST['user']['screenHeight'].')'.$_POST['user']['userAgent'];
+
+			// Traemos id si el usuario ya visitó anteriormente
+			$query = 'SELECT idvisitas_frecuencia, cantidad_visitas FROM visitas_frecuencia where key_visita = \''.$identificador.'\'';
+			$consulta = $this->db->query($query)->result_array();
+			if (!$consulta) { $es_nuevo = true; } else{ $es_nuevo = false; }
+			$datestring = '%Y/%m/%d - %h:%i:%s %A';
+			$fecha = mdate($datestring, now(LOCAL_TIMEZONE));
+			if ($es_nuevo) {
+				$data = array(
+					'cantidad_visitas' => 1,
+					'primera_visita' => $fecha,
+					'ip' => $_POST['user']['ip'],
+					'screenWidth' => $_POST['user']['screenWidth'],
+					'screenHeight' => $_POST['user']['screenHeight'],
+					'key_visita' => $identificador
+				);
+				$this->db->insert('visitas_frecuencia', $data);
+			} else {
+				$cantidad_visitas = 
+				$this->db->set('cantidad_visitas', intval($consulta[0]['cantidad_visitas']) + 1);
+				$this->db->set('ultima_visita', $fecha);
+				$this->db->where('idvisitas_frecuencia', intval($consulta[0]["idvisitas_frecuencia"]));
+				$this->db->update('visitas_frecuencia');
+			}
 		}
 
 	}

@@ -37,7 +37,7 @@
 	<div class="container">
 		<div>
 			<h3 class="titulo1">¡Bienvenido a mi página!</h3>
-			<p class="text-center" style="margin-bottom: 25px;">
+			<p class="text-justify" style="margin-bottom: 25px;">&nbsp&nbsp 
 			¡Aclaremos algo! Esta página fue creada para ayudarte a solucionar tus problemas en audio. Te aseguro que tengo experiencia en el campo de la producción musical, aqui te muestro algo de lo que he realizado, recomendaciones de mis amigos y clientes; estoy seguro de que entre tu experiencia y la mía podremos hacer que todo fluya y funcione de maravilla. Porfavor, no olvides visitarme y regalarme un like en facebook. De antemano ¡Te lo agradezco!
 			</p>
 		</div>
