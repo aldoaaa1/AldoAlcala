@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="<?php echo (base_url().'assets/css/videos.css') ?>">
+<link rel="stylesheet" href="<?php echo (base_url().'assets/css/descargas.css') ?>">
 <nav class="navbar navbar-expand-md fixed-top navbar-light gb-light" style="background-color: hsla(200, 25%, 98%, 0.9);" id="nav1">
   <a class="navbar-brand" href="#">MENÚ</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -6,8 +6,11 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
-      <a class="nav-item nav-link" href=<?= base_url(); ?>>Página Principal</a>
-      <a class="nav-item nav-link" href="#" id="videos_menu">Videos</a>
+      <a class="nav-item nav-link" href=<?= base_url(); ?>>Página principal</a>
+      <a class="nav-item nav-link" href="#" id="trabajos_menu">Trabajos que ofrezco</a>
+      <a class="nav-item nav-link" href="#" id="realizados_menu">Trabajos realizados</a>
+      <a class="nav-item nav-link" href="#" id="forma_menu">Forma de trabajo</a>
+      <a class="nav-item nav-link" href="#" id="referencias_menu">Referencias</a>
       <a class="nav-item nav-link" href="#" id="contacto_menu">Contáctame</a>
     </div>
   </div>
@@ -15,13 +18,8 @@
 <div class="container-flex parallax100 centrarObjetos" id="titulo1">
 	<div class="container">
 		<div class="tituloPrincipal">
-			<h2>GALERÍA DE VIDEOS</h2>
-			<p>¡Checa algunos videos que he realizado!</p>
+			<h2>Página de Descargas</h2>
+			<p>Mi material a tu disposición.</p>
 		</div>
 	</div>
 </div>
-
-<?php $this->load->view($modules_ubication.'/videos.php') ?>
-<?php $this->load->view($modules_ubication.'/contacto.php') ?>
-
-<script type="text/javascript"src="<?php echo (base_url().'assets/js/videos.js') ?>"></script>

@@ -10,6 +10,11 @@
 #videos h4, #videos p{
 	color: var(--light);
 }
+#contacto svg{
+    width: 460px;
+    height: 280px;
+    fill: var(--gray-light);
+}
 .video1 p{
     margin-bottom: 0;
 }
