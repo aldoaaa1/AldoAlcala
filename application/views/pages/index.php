@@ -12,7 +12,7 @@
       <a class="nav-item nav-link" href="#" id="sobre_mi_link">Acerca de mí</a>
       <a class="nav-item nav-link" href="#" id="referencias_link">Referencias</a>
       <a class="nav-item nav-link" href="#" id="servicios_link">Servicios</a>
-      <a class="nav-item nav-link" href="#">¡DESCARGAS!</a>
+      <a class="nav-item nav-link" href="<?=base_url();?>index.php/descargas" >¡DESCARGAS!</a>
     </div>
     <!-- SE AGREGARA EL INICIO DE SESIÓN CUANDO LA APP ESTÉ LISTA -->
 	<!-- <div class="navbar-nav btn_inicio_sesion">

@@ -99,6 +99,9 @@ em {
     background-size: inherit !important;
     background-position: center !important;
   }
+  .lg_hidden{
+    display: none;
+  }
 }
 @media (max-width: 768px){
   .md_hidden{
