@@ -3,57 +3,65 @@
 		<div>
 			<h3 class="titulo1 text-light">TRABAJOS QUE OFREZCO</h3>
 			<div class="row">
-				<div class="col-lg-3">
+				<div class="col-lg-4">
 					<h4 class="text-light text-center">Grabación de pistas</h4>
-					<p class="text-light trabajos_p">&nbsp&nbsp 
-						Si no has encontrado por internet la pista/karaoke de alguna canción que te guste mucho y quieras cantarla pero... ¿No la encuentras? Yo puedo ayudarte con eso, te grabo la cancion completa para que puedas ser de los primeros en tenerla.
+					<p class="text-light trabajos_p text-justify">&nbsp&nbsp
+						Si no has encontrado la pista/karaoke de alguna canción que quieres cantar, puedo ayudarte con eso. Yo te la grabo y... ¡Tú serás quien tenga la pista primero que nadie!
 					</p>
 				</div>
-				<div class="col-lg-3">
+				<div class="col-lg-4">
 					<h4 class="text-light text-center">Grabación de eventos</h4>
-					<p class="text-light trabajos_p">&nbsp&nbsp
-						A muchas personas les ha pasado, organizan un evento, invirten mucho tiempo en la preparación de todo lo que se necesita para el antes, durante y después del show, se llevan la experiencia del momento y hasta ahí... ¡No! ¡Tienes la posibilidad de inmortalizar el momento!
+					<p class="text-light trabajos_p text-justify">&nbsp&nbsp
+						La preparación de un evento requiere de mucho tiempo y esfuerzo; al final, las personas que organizan se llevan la experiencia del momento y hasta ahí... ¡No! ¡Tienes la posibilidad de inmortalizar el momento!
 					</p>
 				</div>
-				<div class="col-lg-3">
+				<div class="col-lg-4">
 					<h4 class="text-light text-center">Arreglos musicales</h4>
-					<p class="text-light trabajos_p">&nbsp&nbsp
-						¿Has compuesto una canción y no sabes como darle el acompañamiento instrumental que te ayude a potenciar el mensaje que deseas transmitir? ¡Yo puedo ayudarte con eso! Desde la selección adecuada del tono, la velocidad y el género, hasta la instrumentacion, ejecución y orquestación de tu nueva creación. 
+					<p class="text-light trabajos_p text-justify">&nbsp&nbsp
+						¿Requieres acompañamiento instrumental para potenciar el mensaje de tus canciones? ¡No te preocupes! Desde la selección adecuada del tono y de el género, hasta la instrumentación y ejecución. ¡Todo es posible!
 					</p>
 				</div>
-				<div class="col-lg-3">
-					<h4 class="text-light text-center">Producción audiovisual</h4>
-					<p class="text-light trabajos_p">&nbsp&nbsp
-						Si ya tienes tu canción organizada y estructurada, puedo ayduarte a complementar tu trabajo con fotografías, video y diseño de tus portadas, flyers, tarjetas de presentación, y de todo tipo de material grafico que necesites para la publicacion de tu proyecto.
-					</p>
-				</div>			
 			</div>
 			<div class="row">
-				<div class="col-lg-3">
+				<div class="col-lg-4">
+					<h4 class="text-light text-center">Producción audiovisual</h4>
+					<p class="text-light trabajos_p text-justify">&nbsp&nbsp
+						Complementemos tus canciones con fotografías, videos, diseños de portada, flyers, tarjetas de presentación y todo el material gráfico que necesites para la publicación.
+					</p>
+				</div>			
+				<div class="col-lg-4">
 					<h4 class="text-light text-center">Manejo de redes</h4>
-					<p class="text-light trabajos_p">&nbsp&nbsp
-						Lamentablemente, hay muchas personas que tienen buen material... Pero todo ese material puesto solo detras de sus propios muros ¡No sirve de nada! El resto de gente necesita conocerte y escuchar tu música. ¡Hagamos algo al respecto!
+					<p class="text-light trabajos_p text-justify">&nbsp&nbsp
+						Un buen material puesto sólo detrás de sus propios muros ¡No sirve de nada! El mundo necesita conocerte y escuchar tu música. ¡Hagámos algo al respecto!
 					</p>
 				</div>
-				<div class="col-lg-3">
+				<div class="col-lg-4">
 					<h4 class="text-light text-center">Distribución digital</h4>
-					<p class="text-light trabajos_p">&nbsp&nbsp
-						Es tiempo de ir pensando en hacer que todo ese tiempo dedicado y esfuerzo empiecen a valer la pena ¡Rompe las barreras locales! Comienza a proyectarte al mundo y deja que ese trabajo empiecen a darte frutos.
-					</p>
-				</div>
-				<div class="col-lg-3">
-					<h4 class="text-light text-center">Maquila de CD's</h4>
-					<p class="text-light trabajos_p">&nbsp&nbsp
-						Es verdad... Los CD's ya no se utilizan mucho, pero, aun hay gente mas grande que sigue utilizando este medio para poner su musica, y pensando en ello, te ofrezco opciones de maquila de CD's que no necesitas invertir tanta cantidad de dinero y así seguir teniendo esta opción si arriesgar tu dinero. ¡Maquila desde 100 discos solamente!
-					</p>
-				</div>
-				<div class="col-lg-3">
-					<h4 class="text-light text-center">Presentaciónes</h4>
-					<p class="text-light trabajos_p">&nbsp&nbsp
-						¡Ésto si es de lo que más vas a poder remunerar tu esfuerzo! Si ya has conseguido tu propia audiencia de cualquier forma, entonces es tiempo de que vayas construyendo tu propio performance para una presentación en vivo unica y espectacular para tu publico, yo te puedo ayudar desde los re-arreglos, organizacion y publicidad hasta ayudarte a conseguir equipo y lugar para llevarlo acabo.
+					<p class="text-light trabajos_p text-justify">&nbsp&nbsp
+						Es tiempo de hacer que todo tu esfuerzo empiece a valer la pena ¡Rompe las barreras locales! Proyectate al mundo y recibe los frutos de tu cosecha.
 					</p>
 				</div>
 			</div>
+				<div class="row">
+					<div class="col-lg-4">
+						<h4 class="text-light text-center">Maquila de CD's</h4>
+						<p class="text-light trabajos_p text-justify">&nbsp&nbsp
+							Haz que las personas te escuchen sin internet ni celular, te ofrezco opciones en donde no necesitas invertir tanto dinero. ¡Maquila desde 100 discos solamente!
+						</p>
+					</div>
+					<div class="col-lg-4">
+						<h4 class="text-light text-center">Presentaciones</h4>
+						<p class="text-light trabajos_p text-justify">&nbsp&nbsp
+							¿Ocupas performance para una presentación en vivo única y espectacular? ¡Cuenta conmigo! Re-arreglos, organización, publicidad, equipo... ¡TODO!
+						</p>
+					</div>
+					<div class="col-lg-4">
+						<h4 class="text-light text-center">Músicos y coros</h4>
+						<p class="text-light trabajos_p text-justify">&nbsp&nbsp
+							Tanto para tus grabaciones como para tus eventos en vivo, puedo conseguirte a las personas adecuadas para completar tu banda.
+						</p>
+					</div>
+				</div>
 		</div>
 	</div>
 </div>

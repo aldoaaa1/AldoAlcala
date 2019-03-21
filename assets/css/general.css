@@ -17,7 +17,7 @@ h1, h2, h3, h4, h5, h6 {
 p {
     font-family: 'Open Sans', sans-serif;
     color: var(--dark);
-    font-size: 15px;
+    font-size: 16px;
 }
 em {
 	  font-family: 'Open Sans', sans-serif;
@@ -108,5 +108,17 @@ em {
 @media (max-width: 576px){
   .sm_hidden{
     display: none;
+  }
+}
+
+@media (min-width: 1500px){
+  h1, h2, h3, h4, h5, h6 {
+    font-size: 2.2em;
+  }
+  p{
+    font-size: 18px;
+  }
+  .nav-link{
+    font-size: 1.2em
   }
 }
