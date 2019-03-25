@@ -6,7 +6,7 @@
 	<title>Aldo Alcalá - Prueba 1.0v</title>
 
 	<!-- CARGA DE PLUGINS EXTERNOS -->
-	<script type="text/javascript"src="<?php echo (base_url().'assets/js/jquery.js') ?>"></script>
+	<script type="text/javascript"src="<?php echo (base_url().'assets/js/jquery.js') ?>" async></script>
 	<link rel="stylesheet" href="<?php echo (base_url().'assets/css/bootstrap.css') ?>">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
 	<link rel="stylesheet" href="<?php echo (base_url().'assets/css/general.css') ?>">

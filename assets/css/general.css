@@ -20,7 +20,7 @@ p {
     font-size: 16px;
 }
 em {
-	  font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color: #99928A;
     font-size: 15px;
 }
@@ -87,6 +87,46 @@ em {
   margin-bottom: 0;
   color: var(--light);
 }
+
+  /*LOADING DE LA PÁGINA*/
+  /*Solo poner la clase loader con 4 divs adentro para que funcione*/
+  .loader {
+    display: inline-block;
+    position: relative;
+    width: 180px;
+    height: 180px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  .loader div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    border: 15px solid #fff;
+    border-radius: 50%;
+    animation: loader 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: var(--primary) transparent transparent transparent;
+  }
+  .loader div:nth-child(1) {
+    animation-delay: -0.45s;
+  }
+  .loader div:nth-child(2) {
+    animation-delay: -0.3s;
+  }
+  .loader div:nth-child(3) {
+    animation-delay: -0.15s;
+  }
+  @keyframes loader {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
 @media (max-width: 992px) {
   .parallax, .parallax25, .parallax50, .parallax75{
     background-attachment: initial;
@@ -98,9 +138,6 @@ em {
     background-attachment: initial;
     background-size: inherit !important;
     background-position: center !important;
-  }
-  .lg_hidden{
-    display: none;
   }
 }
 @media (max-width: 768px){

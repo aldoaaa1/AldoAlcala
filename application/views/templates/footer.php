@@ -18,29 +18,11 @@
 	</div>
 	<div style="height: 10px;"></div>
 </div>
-
-	<!-- FUNCION PARA MANDAR ESTADISTICAS DE VISITAS A LA PAGINA -->
-	<script>
-		$(document).ready(function(){
-			a = window.navigator;
-			b = window.screen;
-
-			// DATOS REGISTRADOS DEL VISITANTE
-			var user = new Object();
-			user.screenWidth = b.width;
-			user.screenHeight = b.height;
-			user.language = a.language;
-			user.vendor = a.vendor;
-			user.userAgent = a.userAgent;
-			user.ip = "<?= $_SERVER['REMOTE_ADDR'] ?>";
-			user.paginaActual = "<?= $_SERVER['PHP_SELF'] ?>";
-
-			// REGISTRO EN BASE DE DATOS
-			$.post('<?=base_url()?>index.php/reg', {user: user});
-		});
-	</script>
-	<script type="text/javascript" src="<?php echo (base_url().'assets/js/bootstrap.js') ?>"></script>
-	<script type="text/javascript" src="<?php echo (base_url().'assets/js/sweetalert2.js') ?>" ></script>
-	<script type="text/javascript"src="<?php echo (base_url().'assets/js/general.js') ?>"></script>
+	<!-- SE CARGAN LOS SCRIPTS ASINCRONOS -->
+	<script type="text/javascript" src="<?php echo (base_url().'assets/js/bootstrap.js') ?>" defer></script>
+	<script type="text/javascript" src="<?php echo (base_url().'assets/js/sweetalert2.js') ?>" defer></script>
+	<script type="text/javascript"src="<?php echo (base_url().'assets/js/general.js') ?>" defer></script>
+	<script type="text/javascript"src="<?php echo (base_url().'assets/js/registrar_visita.js') ?>" defer></script>
+	<script>var baseUrl="<?= base_url();?>"</script>
 </body>
 </html>
