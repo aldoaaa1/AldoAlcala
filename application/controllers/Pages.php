@@ -12,7 +12,7 @@
 		}
 
 		function index(){
-			$datestring = '%Y/%m/%d - %h:%i:%s %A';
+			$datestring = '%Y-%m-%d  %H:%i:%s';
 			$data['fecha'] = mdate($datestring, now(LOCAL_TIMEZONE));
 			$data['modules_ubication'] = 'modules/index/';
 			$this->load->view('templates/header.php');
@@ -28,7 +28,7 @@
 		}
 
 		function nuevo_registro(){
-			// $this->Enviar_estadisticas->registrar_visita();
+			$this->Enviar_estadisticas->registrar_visita();
 			$this->Enviar_estadisticas->registrar_frecuencia();
 		}
 

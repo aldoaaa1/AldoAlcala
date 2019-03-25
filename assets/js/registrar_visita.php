@@ -12,4 +12,4 @@ user.ip = "<?= $_SERVER['REMOTE_ADDR'] ?>";
 user.paginaActual = "<?= $_SERVER['PHP_SELF'] ?>"; 
  
 // REGISTRO EN BASE DE DATOS 
-$.post(baseUrl+'index.php/reg', {'user': user.user});
+$.post(baseUrl+'index.php/reg', {'user': user});

@@ -1,4 +1,4 @@
-<div class="container-flex parallax50 centrarObjetos" id="sobre_mi">
+<div class="container-flex parallax75 centrarObjetos" id="sobre_mi">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-4 centrarObjetos">
