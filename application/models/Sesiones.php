@@ -29,7 +29,7 @@
 		}
 
 		function registrar_ingreso($id){
-			$datestring = '%Y/%m/%d - %H:%i:%s';
+			$datestring = '%Y-%m-%d %H:%i:%s';
 			$fecha = mdate($datestring, now(LOCAL_TIMEZONE));
 			$data = array(
 				'idusuario' => $id,
