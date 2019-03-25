@@ -24,4 +24,4 @@
 <?php $this->load->view($modules_ubication.'/videos.php') ?>
 <?php $this->load->view($modules_ubication.'/contacto.php') ?>
 
-<script type="text/javascript"src="<?php echo (base_url().'assets/js/videos.js') ?>"></script>
+<script type="text/javascript"src="<?php echo (base_url().'assets/js/videos.js') ?>" async></script>
