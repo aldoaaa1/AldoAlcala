@@ -1,11 +1,11 @@
 <div class="container-flex referencias parallax100 centrarObjetos" id="servicios">
-	<div class="container">
+	<div class="container-flex">
 		<div class="row">
 			<div class="col-lg pointer transicion vh100 centrarObjetos" id="videos_link">
 				<div>
 					<h4 class="text-center">ALGUNOS TRABAJOS</h4>
 					<p class="text-center">
-						Aquí encuentras trabajos que he realizado. ¡Los he disfrutado mucho! Espero que te gusten a ti tanto como me ha encantado hacer cada uno de ellos.
+						Aquí encuentras trabajos que he realizado. ¡Los he disfrutado mucho! Espero que te gusten a ti tanto como me ha encantado hacer cada uno de ellos. <br>¡Click Aquí!
 					</p>	
 				</div>
 			</div>
