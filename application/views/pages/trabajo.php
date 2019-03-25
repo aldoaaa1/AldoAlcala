@@ -28,4 +28,4 @@
 <?php $this->load->view($modules_ubication.'referencias') ?>
 <?php $this->load->view($modules_ubication.'contacto') ?>
 
-<script type="text/javascript"src="<?php echo (base_url().'assets/js/trabajo.js') ?>"></script>
+<script type="text/javascript"src="<?php echo (base_url().'assets/js/trabajo.js') ?>" async></script>

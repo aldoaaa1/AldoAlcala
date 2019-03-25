@@ -68,4 +68,4 @@
 <!-- MODALS -->
 <?php $this->load->view($modules_ubication.'modal_inicio_sesion') ?>
 
-<script type="text/javascript"src="<?php echo (base_url().'assets/js/index.js') ?>"></script>
+<script type="text/javascript"src="<?php echo (base_url().'assets/js/index.js') ?>" async></script>
