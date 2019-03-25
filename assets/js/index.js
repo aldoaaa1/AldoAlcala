@@ -17,6 +17,6 @@ $('#referencias_link').click(function(){
 });
 $('#servicios_link').click(function(){
 	$('html, body').animate({
-      scrollTop: $("#servicios").offset().top
+      scrollTop: $("#servicios").offset().top - navOffset
   }, velocidadScroll);
 });
