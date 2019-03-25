@@ -34,7 +34,7 @@
 		</div>
 	</div>
 </div>
-<div class="container-flex bienvenida parallax50 centrarObjetos">
+<div class="container-flex bienvenida parallax75 centrarObjetos">
 	<div class="container">
 		<div>
 			<h3 class="titulo1">¡Bienvenido a mi página!</h3>

@@ -16,7 +16,7 @@
 }
 #sobre_mi{
 	background-image: 
-    linear-gradient( hsla(200, 20%, 20%, 0.5), hsla(230, 15%, 25%, 0.7) ),
+    linear-gradient( hsla(200, 100%, 3%, 0.45), hsla(230, 80%, 3%, 0.65)),
     url('/assets/img/sobre_mi.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -126,10 +126,13 @@
     margin-bottom: 50px;
 }
 
-@media (max-width: 815px) {
+@media (max-width: 992px) {
 	.vh100{
 		height: auto;
 	}
+}
+
+@media (max-width: 815px) {
 	#servicios{
 		height: auto !important;
 		padding-bottom: 20px;

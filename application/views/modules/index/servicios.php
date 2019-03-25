@@ -1,7 +1,7 @@
 <div class="container-flex referencias parallax100 centrarObjetos" id="servicios">
 	<div class="container">
 		<div class="row">
-			<div class="col-md pointer transicion vh100 centrarObjetos" id="videos_link">
+			<div class="col-lg pointer transicion vh100 centrarObjetos" id="videos_link">
 				<div>
 					<h4 class="text-center">ALGUNOS TRABAJOS</h4>
 					<p class="text-center">
@@ -9,7 +9,7 @@
 					</p>	
 				</div>
 			</div>
-			<div class="col-md pointer transicion vh100 centrarObjetos" id="grabaciones_link">
+			<div class="col-lg pointer transicion vh100 centrarObjetos" id="grabaciones_link">
 				<div>
 					<h4 class="text-center">¿QUIERES GRABAR?</h4>
 					<p class="text-center">
@@ -17,7 +17,7 @@
 					</p>	
 				</div>
 			</div>
-			<div class="col-md pointer transicion vh100 centrarObjetos" id="trabajo_link">
+			<div class="col-lg pointer transicion vh100 centrarObjetos" id="trabajo_link">
 				<div>
 					<h4 class="text-center">¿HACEMOS ALGO JUNTOS?</h4>
 					<p class="text-center">
@@ -26,7 +26,7 @@
 				</div>
 			</div>
 			<!-- SE AGREGARÁN LOS CURSOS HASTA QUE ESTÉN LISTOS -->
-			<!-- <div class="col-md parpadeo vh100 centrarObjetos" id="cursos_link">
+			<!-- <div class="col-lg parpadeo vh100 centrarObjetos" id="cursos_link">
 				<div>
 					<h4 class="text-center">¡TUTORIALES Y CURSOS DISPONIBLES!</h4>
 					<p class="text-center">

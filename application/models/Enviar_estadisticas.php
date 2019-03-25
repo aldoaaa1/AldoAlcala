@@ -7,7 +7,7 @@
 		}
 
 		function registrar_visita(){
-			$datestring = '%Y-%m-%d %H:%i:%s';
+			$datestring = '%Y-%m-%d  %H:%i:%s';
 			$fecha = mdate($datestring, now(LOCAL_TIMEZONE));
 			$data = array(
 				'date' => $fecha,
@@ -30,7 +30,7 @@
 			$query = 'SELECT idvisitas_frecuencia, cantidad_visitas FROM visitas_frecuencia where key_visita = \''.$identificador.'\'';
 			$consulta = $this->db->query($query)->result_array();
 			if (!$consulta) { $es_nuevo = true; } else{ $es_nuevo = false; }
-			$datestring = '%Y-%m-%d %H:%i:%s';
+			$datestring = '%Y-%m-%d  %H:%i:%s';
 			$fecha = mdate($datestring, now(LOCAL_TIMEZONE));
 			if ($es_nuevo) {
 				$data = array(
