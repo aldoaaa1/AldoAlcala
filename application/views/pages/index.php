@@ -51,16 +51,16 @@
 <script>
 	$(document).ready(function(){
 		$('#videos_link').click(function(){
-			window.location = '<?php echo base_url(); ?>index.php/videos'
+			window.location = '<?php echo base_url(); ?>videos'
 	    });
 	    $('#grabaciones_link').click(function(){
-	    	window.location = '<?php echo base_url(); ?>index.php/grabaciones'
+	    	window.location = '<?php echo base_url(); ?>grabaciones'
 	    });
 	    $('#trabajo_link').click(function(){
-	      	window.location = '<?php echo base_url(); ?>index.php/trabajo'
+	      	window.location = '<?php echo base_url(); ?>trabajo'
 	    });
 	    $('#cursos_link').click(function(){
-	    	window.location = '<?php echo base_url(); ?>index.php/cursos'
+	    	window.location = '<?php echo base_url(); ?>cursos'
 	    });
 	});
 </script>
