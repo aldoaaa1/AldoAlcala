@@ -15,8 +15,10 @@
     background-position: center;	
 }
 #servicios > div{
-	padding-left: 35px;
-	padding-right: 35px;
+	padding: 0 20px;
+}
+.mh1{
+	min-height: 260px;
 }
 #sobre_mi{
 	background-image: 
@@ -38,27 +40,31 @@
 	text-align: center;
 }
 .tituloPrincipal p{
-	margin-top: 0;
+	margin-top: 5px;
+	font-size: 1em;
 	margin-bottom: 0;
-	padding-bottom: 20px;
 }
 .btn_inicio_sesion{
 	right: 7px;
     position: absolute;
 }
 #titulo1 svg{
-	width: 550px;
+	width: 525px;
 	fill: var(--dark);
 }
 #sobre_mi p{
 	margin-top: 16px;
 	margin-bottom: 16px;
+	font-size: 16px;
 }
 #referencias{
 	background-color: var(--gray);
 }
 #referencias p, #referencias h2, #referencias h4{
 	color: var(--light);
+}
+#navbarNavAltMarkup{
+	font-size: 0.9em;
 }
 .transicion{
 	transition: all var(--hover-time) ease;
@@ -80,11 +86,19 @@
 .bienvenida{
 	background-color: var(--gray);
 }
+.fs16{ font-size: 16px; }
+.p1{
+	max-width: 430px;
+	margin: 0px;
+}
 .bienvenida p, h3{
 	color: var(--light);
 	margin-bottom: 0;
 	padding-top: 5px;
 	padding-bottom: 8px;
+}
+.bienvenida p{
+	font-size: 16px;
 }
 .bienvenida h3{
 	margin-top: 0;
