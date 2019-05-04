@@ -12,4 +12,4 @@ user.ip = "<?= $_SERVER['REMOTE_ADDR'] ?>";
 user.paginaActual = document.referrer; 
  
 // REGISTRO EN BASE DE DATOS 
-$.post(baseUrl+'index.php/reg', {'user': user});
+$.post(baseUrl+'reg', {'user': user});
