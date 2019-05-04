@@ -28,8 +28,8 @@
 			<!-- SE CARGA EL LOGO Y SE LE MODIFICA EL TAMAÑO POR CSS -->
 			<?php $this->load->view('templates/logo_completo') ?>
 			<div style="height: 1px;"></div>
-			<div class="fb-like" data-href="https://www.facebook.com/aldomusica.mty/" data-layout="button" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
 			<p>¡Ayúdame a darle like a mi página!</p>
+			<div class="fb-like" data-href="https://www.facebook.com/aldomusica.mty/" data-layout="button" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
 			<!-- <p> <?php var_dump($_SESSION); ?> </p> -->
 		</div>
 	</div>

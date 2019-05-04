@@ -3,16 +3,16 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md md_hidden">
-				<p class="text-center">Mezcla y Master Profesional</p>
-				<p class="text-center">Presupuesto Sin Compromiso</p>
+				<p class="text-center" style="font-size: 16px;">Mezcla y Master Profesional</p>
+				<p class="text-center" style="font-size: 16px;">Presupuesto Sin Compromiso</p>
 			</div>
 			<div class="col-sm sm_hidden">
-				<p class="text-center">Visítame en Facebook</p>
-				<p class="text-center">y en youtube: Aldo Alcalá</p>
+				<p class="text-center" style="font-size: 16px;">Visítame en Facebook</p>
+				<p class="text-center" style="font-size: 16px;">y en youtube: Aldo Alcalá</p>
 			</div>
 			<div class="col-sm">
-				<p class="text-center">San Nicolás de los Garza</p>
-				<p class="text-center">Nuevo León</p>
+				<p class="text-center" style="font-size: 16px;">San Nicolás de los Garza</p>
+				<p class="text-center" style="font-size: 16px;">Nuevo León</p>
 			</div>
 		</div>
 	</div>
