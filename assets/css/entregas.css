@@ -1,0 +1,61 @@
+#main{
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+	color: var(--gray);
+}
+p, h3{
+	color: var(--gray);
+}
+#main form{
+	margin: auto;
+	width: 100%;
+	max-width: 270px;
+	margin-top: 12px;
+}
+label{
+	cursor: pointer;
+	display: inline-block;
+    margin-bottom: .5rem;
+    position: relative;
+    top: -42px;
+    transition: all ease 0.35s;
+}
+.gracias{
+    width: 100%;
+    margin-top: 10px;
+}
+.footer{
+	color: var(--gray-light);
+    font-size: 12px;
+    max-width: 270px;
+    margin: auto;
+    text-align: justify;
+    margin-top: 10px;
+}
+#clave_descarga{
+	width: 100%;
+    height: 40px;
+    color: var(--gray);
+    border: 0;
+    padding-top: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-bottom: 1px solid #cedadf;
+    outline: none;
+	background-color: rgba(255, 255, 255, 0.8);
+	transition: all ease 0.35s
+}
+#clave_descarga:focus, .input-focus { 
+	background-color: rgba(0, 0, 0, 0) !important;
+}
+#clave_descarga:focus + label, .label-focus{ 
+	top: -65px;
+	font-size: 0.85em;
+	color: var(--indigo);
+}
+.full-height{
+	height: 100vh;
+	display: table;
+}

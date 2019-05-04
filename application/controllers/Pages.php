@@ -27,6 +27,13 @@
 			$this->load->view('templates/footer.php');
 		}
 
+		function b($a){
+			$data['modules_ubication'] = 'modules/'.$a.'/';
+			$this->load->view('templates/header.php');
+			$this->load->view('pages/'.$a, $data);
+			// NO INCLUYE EL FOOTER
+		}
+
 		function nuevo_registro(){
 			$this->Enviar_estadisticas->registrar_visita();
 			$this->Enviar_estadisticas->registrar_frecuencia();
