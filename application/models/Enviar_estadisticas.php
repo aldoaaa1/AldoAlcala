@@ -36,6 +36,7 @@
 				$data = array(
 					'cantidad_visitas' => 1,
 					'primera_visita' => $fecha,
+					'ultima_pagina' => $_POST['user']['paginaActual'],
 					'ip' => $_POST['user']['ip'],
 					'screenWidth' => $_POST['user']['screenWidth'],
 					'screenHeight' => $_POST['user']['screenHeight'],
@@ -46,6 +47,7 @@
 				$cantidad_visitas = 
 				$this->db->set('cantidad_visitas', intval($consulta[0]['cantidad_visitas']) + 1);
 				$this->db->set('ultima_visita', $fecha);
+				$this->db->set('ultima_pagina', $_POST['user']['paginaActual']);
 				$this->db->where('idvisitas_frecuencia', intval($consulta[0]["idvisitas_frecuencia"]));
 				$this->db->update('visitas_frecuencia');
 			}
