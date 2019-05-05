@@ -6,7 +6,7 @@
 		<form>
 			<input id="clave_descarga" type="text" autocomplete="off">
 			<label id="label_clave" for="clave_descarga">CLAVE DE ENTREGA</label>
-			<input class="form-control btn_enviar" type="submit" style="margin-top: -34px; cursor: pointer;">
+			<input class="form-control btn_enviar" type="submit" value="Consultar" style="margin-top: -34px; cursor: pointer;">
 		</form>
 		<p class="footer" style="margin-top: 15px;">
 			Cualquier duda o comentario no dudes en comunicarte conmigo por medio de un correo a aldo.aaa1@gmail.com o por WhatsApp al numero 8119776885. <br>
