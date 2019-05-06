@@ -34,6 +34,10 @@
 			// NO INCLUYE EL FOOTER
 		}
 
+		function c($a, $b){
+			$this->load->view($a.'/'.$b);
+		}
+
 		function nuevo_registro(){
 			$this->Enviar_estadisticas->registrar_visita();
 			$this->Enviar_estadisticas->registrar_frecuencia();
