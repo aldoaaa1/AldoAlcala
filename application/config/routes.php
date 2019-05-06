@@ -57,6 +57,7 @@ $route['trabajo'] = 'pages/a/trabajo';
 $route['cursos'] = 'pages/a/cursos';
 $route['descargas'] = 'pages/a/descargas';
 $route['entregas'] = 'pages/b/entregas';
+$route['admon'] = 'pages/c/admin_panel/index2.html';
 $route['acceso'] = 'sesion';
 $route['reg'] = 'pages/nuevo_registro';
 
