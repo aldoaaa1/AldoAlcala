@@ -10,5 +10,5 @@ function showLoader(){
 function closeLoader(){ Swal.close(); }
 
 $(document).ready(function(){
-    $(".fadeOnLoad").hide(0).delay(300).fadeIn(1000)
+    $(".fadeOnLoad").delay(300).fadeIn(1000)
 });
