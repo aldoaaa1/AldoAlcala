@@ -1,5 +1,5 @@
 // LA VELOCIDAD DE LA ANIMACION DEL SCROLL DE LOS MENÚS
-var velocidadScroll = 700;
+var velocidadScroll = 350;
 
 function showLoader(){
 	Swal.fire({
@@ -10,5 +10,5 @@ function showLoader(){
 function closeLoader(){ Swal.close(); }
 
 $(document).ready(function(){
-    $(".fadeOnLoad").delay(300).fadeIn(1000)
+    $(".fadeOnLoad").delay(350).fadeIn(1000)
 });

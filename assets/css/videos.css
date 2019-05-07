@@ -15,6 +15,9 @@
     height: 280px;
     fill: var(--gray-light);
 }
+#navbarNavAltMarkup{
+    font-size: 0.9em;
+}
 .video1 p{
     margin-bottom: 0;
 }

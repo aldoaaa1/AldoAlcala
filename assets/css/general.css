@@ -155,9 +155,6 @@ em {
 }
 
 @media (min-width: 1500px){
-  p{
-    font-size: 18px;
-  }
   .nav-link{
     font-size: 1.2em
   }
