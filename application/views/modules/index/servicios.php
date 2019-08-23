@@ -13,7 +13,7 @@
 				<div>
 					<h4 class="text-center">¿QUIERES GRABAR?</h4>
 					<p class="text-center fs16 p1">
-						Si tienes algun proyecto en mente y has querido siempre grabarlo o has compuesto canciones y quieres proyectarte. ¡Hagámozlo!
+						Si tienes algun proyecto en mente y has querido siempre grabarlo o has compuesto canciones y quieres proyectarte. ¡Hagámozlo! <br>¡Click Aquí!
 					</p>	
 				</div>
 			</div>

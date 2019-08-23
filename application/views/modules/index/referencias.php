@@ -1,4 +1,4 @@
-<div class="container-flex referencias parallax75 centrarObjetos" id="referencias">
+<div class="container-flex referencias parallax75 centrarObjetos degradado1" id="referencias">
 	<div class="container">
 		<div class="row">
 			<h2 class="titulo1 col">REFERENCIAS DE MIS AMIGOS</h2>
@@ -6,38 +6,26 @@
 		<div class="row">
 			<div class="col-lg">
 				<div class="ref_box">
-					<div class="centrarObjetos" style="width: 100%;">
-						<div class="centraObjetosVertical">
-							<div class="preview_foto"></div>
-							<h4>Lorem</h4>
-							<h4>Ipsumasd</h4>
-						</div>
-					</div>
+					<div class="preview_foto"></div>
+					<h4 class="text-center">Flor Ortiz</h4>
+					<span class="ref_puesto">Cantante y Directora de<br>ECAP Music School (Los Cabos BCS)</span>
 					<p class="fs16">&nbsp&nbsp Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta rem perferendis, fugit sequi quos ducimus tempore culpa reprehenderit quidem minima quaerat odio eum. Tempora, iusto!</p>
 				</div>
 			</div>
 			<div class="col-lg">
 				<div class="ref_box">
-					<div class="centrarObjetos" style="width: 100%;">
-						<div class="centraObjetosVertical">
-							<div class="preview_foto"></div>
-							<h4>Lorem</h4>
-							<h4>Ipsumasd</h4>
-						</div>
-					</div>
-					<p class="fs16">&nbsp&nbsp Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi aliquid nulla harum, quibusdam illum! Qui dolorem fugiat officiis beatae esse itaque sit praesentium provident aspernatur!</p>
+					<div class="preview_foto"></div>
+					<h4 class="text-center">Isaac Calderón</h4>
+					<span class="ref_puesto">Canta-Autor y Maestro en<br>Selah Music Monterrey</span>
+					<p class="fs16">&nbsp&nbsp Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta rem perferendis, fugit sequi quos ducimus tempore culpa reprehenderit quidem minima quaerat odio eum. Tempora, iusto!</p>
 				</div>
 			</div>
 			<div class="col-lg">
 				<div class="ref_box">
-					<div class="centrarObjetos" style="width: 100%;">
-						<div class="centraObjetosVertical">
-							<div class="preview_foto"></div>
-							<h4>Lorem</h4>
-							<h4>Ipsumasd</h4>
-						</div>
-					</div>
-					<p class="fs16">&nbsp&nbsp Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione cum assumenda explicabo sed, dicta aliquid cupiditate, ab magni temporibus ducimus suscipit dolores expedita error ut.</p>
+					<div class="preview_foto"></div>
+					<h4 class="text-center">Isaí Guerrero</h4>
+					<span class="ref_puesto">Pastor en Iowa EUA Iglesia<br>Centro Cristiano Vida Nueva</span>
+					<p class="fs16">&nbsp&nbsp Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta rem perferendis, fugit sequi quos ducimus tempore culpa reprehenderit quidem minima quaerat odio eum. Tempora, iusto!</p>
 				</div>
 			</div>
 		</div>

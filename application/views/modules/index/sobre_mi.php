@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-4 centrarObjetos">
-				<h2 class="titulo1 text-light">ACERCA DE MÍ</h2>			
+				<h2 class="acercademi">ACERCA DE MÍ</h2>			
 			</div>
 			<div class="col-md">
 				<p class="text-light text-justify">&nbsp&nbsp 

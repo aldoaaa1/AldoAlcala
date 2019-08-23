@@ -1,18 +1,18 @@
 <div id="fb-root"></div>
 <script async defer src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v3.2"></script>
 <link rel="stylesheet" href="<?php echo (base_url().'assets/css/index.css') ?>">
-<nav class="navbar navbar-expand-md fixed-top navbar-light gb-light" style="background-color: hsla(200, 25%, 98%, 0.9);" id="nav1">
-  <a class="navbar-brand" href="#">MENÚ</a>
+<nav class="navbar navbar-expand-md fixed-top navbar-light gb-light" style="background-color: hsla(200, 25%, 98%, 0.75);" id="nav1">
+  <span class="navbar-brand">MENÚ</span>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
-      <a class="nav-item nav-link" href="#" id="pagina_principal_link">Página Principal</a>
-      <a class="nav-item nav-link" href="#" id="sobre_mi_link">Acerca de mí</a>
-      <a class="nav-item nav-link" href="#" id="referencias_link">Referencias</a>
       <a class="nav-item nav-link" href="#" id="servicios_link">Servicios</a>
-      <a class="nav-item nav-link" href="<?=base_url();?>index.php/descargas" >¡DESCARGAS!</a>
+      <a class="nav-item nav-link" href="#" id="referencias_link">Referencias</a>
+      <a class="nav-item nav-link" href="#" id="sobre_mi_link">Acerca de mí</a>
+      <a class="nav-item nav-link" href="<?php echo (base_url().'musica') ?>" id="">Música</a>
+      <a class="nav-item nav-link" href="<?=base_url();?>index.php/descargas" >Descargas</a>
     </div>
     <!-- SE AGREGARA EL INICIO DE SESIÓN CUANDO LA APP ESTÉ LISTA -->
 	<!-- <div class="navbar-nav btn_inicio_sesion">
@@ -27,14 +27,12 @@
 		<div class="tituloPrincipal">
 			<!-- SE CARGA EL LOGO Y SE LE MODIFICA EL TAMAÑO POR CSS -->
 			<?php $this->load->view('templates/logo_completo') ?>
-			<div style="height: 1px;"></div>
-			<p>¡Ayúdame a darle like a mi página!</p>
-			<div class="fb-like" data-href="https://www.facebook.com/aldomusica.mty/" data-layout="button" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
-			<!-- <p> <?php var_dump($_SESSION); ?> </p> -->
+			<p style="color: var(--gray); font-size: 15px; margin-top: -5px;">¡BIENVENIDO!</p>
 		</div>
 	</div>
 </div>
-<div class="container-flex bienvenida parallax75 centrarObjetos">
+<!-- ELIMINAR LA PARTE DE BIENVENIDA -->
+<!-- <div class="container-flex bienvenida parallax75 centrarObjetos">
 	<div class="container">
 		<div>
 			<h3 class="titulo1">¡Bienvenido a mi página!</h3>
@@ -43,10 +41,10 @@
 			</p>
 		</div>
 	</div>
-</div>
-<?php $this->load->view($modules_ubication.'sobre_mi') ?>
-<?php $this->load->view($modules_ubication.'referencias') ?>
+</div> -->
 <?php $this->load->view($modules_ubication.'servicios') ?>
+<?php $this->load->view($modules_ubication.'referencias') ?>
+<?php $this->load->view($modules_ubication.'sobre_mi') ?>
 
 <script>
 	$(document).ready(function(){
