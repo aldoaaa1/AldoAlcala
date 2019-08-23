@@ -83,12 +83,25 @@ em {
   background-repeat: no-repeat;
   background-size: cover;
 }
-#footer{
-  background-color: var(--gray);
+.degradado1{
+background: rgba(117,133,143,1);
+background: -moz-linear-gradient(left, rgba(117,133,143,1) 0%, rgba(73,92,112,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(117,133,143,1)), color-stop(100%, rgba(73,92,112,1)));
+background: -webkit-linear-gradient(left, rgba(117,133,143,1) 0%, rgba(73,92,112,1) 100%);
+background: -o-linear-gradient(left, rgba(117,133,143,1) 0%, rgba(73,92,112,1) 100%);
+background: -ms-linear-gradient(left, rgba(117,133,143,1) 0%, rgba(73,92,112,1) 100%);
+background: linear-gradient(to right, rgba(117,133,143,1) 0%, rgba(73,92,112,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#75858f', endColorstr='#495c70', GradientType=1 );
 }
-#footer p{
-  margin-bottom: 0;
-  color: var(--light);
+#footer{
+  background-color: #eff1f5;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+#footer img{
+  width: 32px;
+  margin-left: 16px;
+  margin-right: 16px;
 }
 
   /*LOADING DE LA PÁGINA*/
