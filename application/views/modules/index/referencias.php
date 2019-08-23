@@ -1,4 +1,4 @@
-<div class="container-flex referencias parallax75 centrarObjetos degradado1" id="referencias">
+<div class="container-flex referencias parallax centrarObjetos degradado1" id="referencias">
 	<div class="container">
 		<div class="row">
 			<h2 class="titulo1 col">REFERENCIAS DE MIS AMIGOS</h2>
