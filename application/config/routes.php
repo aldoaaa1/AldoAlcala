@@ -56,9 +56,11 @@ $route['grabaciones'] = 'pages/a/grabaciones';
 $route['trabajo'] = 'pages/a/trabajo';
 $route['cursos'] = 'pages/a/cursos';
 $route['descargas'] = 'pages/a/descargas';
+$route['musica'] = 'pages/b/musica';
 $route['entregas'] = 'pages/b/entregas';
 $route['admon'] = 'pages/c/admin_panel/index2.html';
 $route['acceso'] = 'sesion';
 $route['reg'] = 'pages/nuevo_registro';
+$route['regsub'] = 'pages/nueva_subscripcion';
 
 
