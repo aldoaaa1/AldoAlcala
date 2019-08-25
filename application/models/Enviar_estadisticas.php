@@ -53,6 +53,31 @@
 			}
 		}
 
+		function registrar_subscripcion(){
+			// Creo el identificador de la visita
+			$identificador = $_POST['user']['ip'].'(res:'.$_POST['user']['screenWidth'].'x'.$_POST['user']['screenHeight'].')'.$_POST['user']['userAgent'];
+
+			// CREO FECHA DEL MOVIMIENTO CON FORMATO
+			$datestring = '%Y-%m-%d  %H:%i:%s';
+			$fecha = mdate($datestring, now(LOCAL_TIMEZONE));
+
+			// REGISTRO EN BASE DE DATOS
+			$data = array(
+				'paginaSubscripcion' => $_POST['user']['paginaActual'],
+				'nombre' => $_POST['user']['nombre'],
+				'apellido' => $_POST['user']['apellido'],
+				'correo_electronico' => $_POST['user']['correo'],
+				'fecha' => $fecha,
+				'screenWidth' => $_POST['user']['screenWidth'],
+				'screenHeight' => $_POST['user']['screenHeight'],
+				'lenguage' => $_POST['user']['language'],
+				'vendor' => $_POST['user']['vendor'],
+				'ip' => $_POST['user']['ip'],
+				'key_visita' => $identificador
+			);
+			$this->db->insert('subscripciones', $data);
+		}
+
 	}
 
 ?>
