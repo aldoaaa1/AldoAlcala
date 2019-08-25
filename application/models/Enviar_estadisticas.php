@@ -58,6 +58,7 @@
 			$identificador = $_POST['user']['ip'].'(res:'.$_POST['user']['screenWidth'].'x'.$_POST['user']['screenHeight'].')'.$_POST['user']['userAgent'];
 
 			// CREO FECHA DEL MOVIMIENTO CON FORMATO
+			$datestring = '%Y-%m-%d  %H:%i:%s';
 			$fecha = mdate($datestring, now(LOCAL_TIMEZONE));
 
 			// REGISTRO EN BASE DE DATOS
