@@ -38,6 +38,12 @@
 			$this->load->view($a.'/'.$b);
 		}
 
+		function artista($nombre){
+			$this->load->view('templates/header.php');
+			$this->load->view('pages/artistas/'.$nombre);
+			$this->load->view('templates/footer2.php');
+		}
+
 		function nuevo_registro(){
 			$this->Enviar_estadisticas->registrar_visita();
 			$this->Enviar_estadisticas->registrar_frecuencia();

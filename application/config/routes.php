@@ -63,4 +63,7 @@ $route['acceso'] = 'sesion';
 $route['reg'] = 'pages/nuevo_registro';
 $route['regsub'] = 'pages/nueva_subscripcion';
 
+// ARTISTAS
+$route['isaak'] = 'pages/artista/isaac_calderon';
+
 
