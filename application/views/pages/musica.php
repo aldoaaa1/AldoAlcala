@@ -104,12 +104,23 @@
 			user.nombre = $("#musica_input_nombre").val();
 			user.apellido = $("#musica_input_apellido").val();
 			user.correo = $("#musica_input_correo").val();
-			// REGISTRO EN BASE DE DATOS 
-			$.post(baseUrl+'regsub', {'user': user});
-			Swal.fire({type: 'success', title: '¡Excelente '+$("#musica_input_nombre").val()+'!', keydownListenerCapture: true,
-	        html: '<span>¡Tu dirección de correo: <span class="text-dark">'+ $("#musica_input_correo").val() +'</span> se registró correctamente!</span>',
-	        onClose: ()=>{return false;}
-	      })
+
+			//SE COMPRUEBA QUE NO HA SIDO REGISTRADO ANTES EN ESTA PÁGINA
+			$.post(baseUrl+'checksub', {'user': user}, function(data){
+				if (data) {
+					// REGISTRO EN BASE DE DATOS 
+					$.post(baseUrl+'regsub', {'user': user});
+					Swal.fire({type: 'success', title: '¡Excelente '+$("#musica_input_nombre").val()+'!', keydownListenerCapture: true,
+		        html: '<span>¡Tu dirección de correo: <span class="text-dark">'+ $("#musica_input_correo").val() +'</span> se registró correctamente!</span>',
+		        onClose: ()=>{return false;}
+		      })
+				}else{
+					Swal.fire({type: 'error', title: '¡Ups!', keydownListenerCapture: true,
+						html: '<span>¡Tu dirección de correo: <span class="text-dark">'+ $("#musica_input_correo").val() +'</span> ya había sido registrado anteriormente!</span><br><em>Recibirás tu notificación cuando haya algun material nuevo.</em>',
+						onClose: ()=>{return false;}
+					})
+				}
+			});
 		}
 	});
 
