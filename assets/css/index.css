@@ -141,6 +141,9 @@
     background-color: rgba(16, 29, 57, 0.2);
     border-radius: 20px;
     margin-bottom: 35px;
+    -webkit-box-shadow: 5px 8px 2px 0px rgba(46, 65, 82, 0.7);
+	-moz-box-shadow: 5px 8px 2px 0px rgba(46, 65, 82, 0.7);
+	box-shadow: 5px 8px 2px 0px rgba(46, 65, 82, 0.7);
 }
 .ref_box h4{
     font-size: 20px;
