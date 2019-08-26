@@ -53,6 +53,13 @@
 			}
 		}
 
+		function consultar_subscripcion(){
+			// IDENTIFICAMOS SI YA ES CORREO REGISTRADO
+			$query = 'SELECT idsubscripciones FROM subscripciones where paginaSubscripcion = \''.$_POST['user']['paginaActual'].'\''.'AND correo_electronico = \''.$_POST['user']['correo'].'\'';
+			$consulta = $this->db->query($query)->result_array();
+			if (!$consulta){echo 1;} else {return false;}
+		}
+
 		function registrar_subscripcion(){
 			// Creo el identificador de la visita
 			$identificador = $_POST['user']['ip'].'(res:'.$_POST['user']['screenWidth'].'x'.$_POST['user']['screenHeight'].')'.$_POST['user']['userAgent'];

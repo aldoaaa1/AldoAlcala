@@ -49,6 +49,10 @@
 			$this->Enviar_estadisticas->registrar_frecuencia();
 		}
 
+		function checar_subscripcion(){
+			$this->Enviar_estadisticas->consultar_subscripcion();
+		}
+
 		function nueva_subscripcion(){
 			$this->Enviar_estadisticas->registrar_subscripcion();
 		}
