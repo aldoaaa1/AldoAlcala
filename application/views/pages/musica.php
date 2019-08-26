@@ -8,19 +8,19 @@
 		<div style="width: 250px;" class="tarjeta">
 			<div style="background-image: url(/assets/img/musica/isaac.jpg);"></div>
 			<h5>Isaak Calderón</h5>
-			<p style="color: white;">&nbsp&nbsp "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae ea dicta odit mollitia illo consequuntur sapiente nostrum obcaecati, magni rem recusandae quisquam totam, eum tempora!"</p>
+			<p style="color: white;">&nbsp&nbsp "No hay nada mejor que una cantada con buena dicción. Si sientes que no das suficiente intención en tu interpretación trata moviendo la manita."</p>
 			<a href="#">VER SU CONTENIDO</a>
 		</div>
 		<div style="width: 250px;" class="tarjeta">
 			<div style="background-image: url(/assets/img/musica/cesar.jpg);"></div>
 			<h5>Cesar Sánchez</h5>
-			<p style="color: white;">&nbsp&nbsp "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum aspernatur iure, repellendus aliquid deleniti quasi, cum ullam, accusamus reprehenderit eligendi a quibusdam quos possimus, hic!"</p>
+			<p style="color: white;">&nbsp&nbsp "Le doy gracias a Dios por permitirme grabar. Espero sea de bendicion para tu vida y si es la voluntad de Dios haremos mas cosas mas adelante y... ¡Esperen lo que viene!"</p>
 			<a href="#">VER SU CONTENIDO</a>
 		</div>
 		<div style="width: 250px;" class="tarjeta">
 			<div style="background-image: url(/assets/img/musica/andy.jpg);"></div>
 			<h5>Andy Rayas</h5>
-			<p style="color: white;">&nbsp&nbsp "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat enim velit unde, quibusdam error possimus, voluptatibus voluptatum veniam animi, magni, repellendus vitae voluptates. Maiores, corporis!"</p>
+			<p style="color: white;">&nbsp&nbsp "Que tal, soy Andy y soy bien cabra para hacer carnes asadas. Si Dios y mi esposa quieren, voy a seguir cantando mis misteriosas canciones. !Donde estas Mesías!"</p>
 			<a href="#">VER SU CONTENIDO</a>
 		</div>
 		<div style="width: 250px;" class="tarjeta">
