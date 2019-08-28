@@ -2,8 +2,9 @@
 <html lang="es">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-	<title>Aldo Alcalá - Prueba 1.0v</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+	<title>Aldo Alcalá</title>
+	<meta name="description" content="¡Bienvenido a mi página web personal! Aquí podrás encontrar servicios de: Mezcla y master profesional, trabajos de audio en general, calibración, mantenimiento y recomendacion de equipo de audio, grabación de proyectos musicales, ¡Clases de Música!. Ubicado en Monterrey N.L.">
 
 	<!-- CARGA DE PLUGINS EXTERNOS -->
 	<script type="text/javascript"src="<?php echo (base_url().'assets/js/jquery.js') ?>"></script>

@@ -8,19 +8,19 @@
 		<div style="width: 250px;" class="tarjeta">
 			<div style="background-image: url(/assets/img/musica/isaac.jpg);"></div>
 			<h5>Isaak Calderón</h5>
-			<p style="color: white;">&nbsp&nbsp "No hay nada mejor que una cantada con buena dicción. Si sientes que no das suficiente intención en tu interpretación trata moviendo la manita."</p>
+			<p style="color: white;">&nbsp&nbsp "Hola Soy Isaac Calderon. Aquí podrás encontrar música para poder exaltar a Jesucristo espero pueda bendecirte y traer paz a tu corazón."</p>
 			<a href="#">VER SU CONTENIDO</a>
 		</div>
 		<div style="width: 250px;" class="tarjeta">
 			<div style="background-image: url(/assets/img/musica/cesar.jpg);"></div>
 			<h5>Cesar Sánchez</h5>
-			<p style="color: white;">&nbsp&nbsp "Le doy gracias a Dios por permitirme grabar. Espero sea de bendicion para tu vida y si es la voluntad de Dios haremos mas cosas mas adelante y... ¡Esperen lo que viene!"</p>
+			<p style="color: white;">&nbsp&nbsp "Le doy gracias a Dios por permitirme grabar. Espero sea de bendicion para tu vida y si es la voluntad de Dios haremos cosas interesantes mas adelante y... ¡Esperen lo que viene!"</p>
 			<a href="#">VER SU CONTENIDO</a>
 		</div>
 		<div style="width: 250px;" class="tarjeta">
 			<div style="background-image: url(/assets/img/musica/andy.jpg);"></div>
 			<h5>Andy Rayas</h5>
-			<p style="color: white;">&nbsp&nbsp "Que tal, soy Andy y soy bien cabra para hacer carnes asadas. Si Dios y mi esposa quieren, voy a seguir cantando mis misteriosas canciones. !Donde estas Mesías!"</p>
+			<p style="color: white;">&nbsp&nbsp "Que tal, soy Andy y compongo canciones. Si Dios y mi esposa quieren, voy a seguir cantando de mis misteriosas canciones. !Donde estas Mesías!"</p>
 			<a href="#">VER SU CONTENIDO</a>
 		</div>
 		<div style="width: 250px;" class="tarjeta">
