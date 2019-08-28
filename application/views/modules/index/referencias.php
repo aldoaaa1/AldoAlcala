@@ -17,7 +17,7 @@
 					<div class="preview_foto" style="background-image: url('/assets/img/musica/isaac.jpg')"></div>
 					<h4 class="text-center">Isaac Calderón</h4>
 					<span class="ref_puesto">Canta-Autor y Maestro en<br>Selah Music Monterrey</span>
-					<p class="fs16 font-italic">&nbsp&nbsp "Te recomiendo porque haces el trabajo con excelencia y calidez (con amor). Tienes muy buen trato con tus clientes, muy buen coach al momento de grabar (instruyes aún desde una persona que no sabe nada) y eres creativo e innovador."</p>
+					<p class="fs16 font-italic">&nbsp&nbsp "Te recomiendo porque haces el trabajo con excelencia y calidez. Tienes muy buen trato con tus clientes, muy buen coach al momento de grabar (instruyes aún desde una persona que no sabe nada) y eres creativo e innovador."</p>
 				</div>
 			</div>
 			<div class="col-lg">

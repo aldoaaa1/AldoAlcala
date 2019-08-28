@@ -4,6 +4,7 @@
 			<a href="https://www.facebook.com/aldomusica.mty" target="_blank"><img src="assets/img/facebook.png" alt="Facebook"></a>
 			<a href="https://www.youtube.com/channel/UC5DkdkIlS-rboAHE8NsiXCA" target="_blank"><img src="assets/img/youtube.png" alt="Youtube"></a>
 			<a href="https://www.instagram.com/aldo_aaa1" target="_blank"><img src="assets/img/instagram.png" alt="Instagram"></a>
+			<a href="https://wa.me/5218119776885?text=Desde%20aldoalcala.com:%20" target="_blank"><img src="assets/img/whatsapp.png" alt="Instagram"></a>
 		</div>
 		<div style="height: 10px;"></div>
 	</div>
